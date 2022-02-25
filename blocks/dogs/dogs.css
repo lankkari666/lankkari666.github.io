@@ -1,0 +1,17 @@
+.dogs {
+  margin: 0 auto;
+  margin-top: 92px;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 768px) {
+  .dogs {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .dogs {
+    margin-top: 68px;
+  }
+}

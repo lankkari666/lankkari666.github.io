@@ -1,0 +1,14 @@
+*.pyc
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.vscode
+.idea
+Icons
+.Trashes
+node_modules
+dist
+ya.prac
+grokking_algorithms-master
+learntolearn

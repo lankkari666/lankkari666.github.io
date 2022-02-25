@@ -1,0 +1,11 @@
+.places__url {
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+@media (max-width: 666px) {
+  .places__url {
+    padding: 0px 16px;
+  }
+}

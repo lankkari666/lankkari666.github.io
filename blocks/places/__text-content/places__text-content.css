@@ -1,0 +1,23 @@
+.places__text-content {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 163%;
+  color: var(--light-color);
+}
+
+.places__text-content:first-child {
+  margin-bottom: 26px;
+}
+
+@media (max-width: 768px) {
+  .places__text-content {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+@media (max-width: 666px) {
+  .places__text-content {
+    padding: 0px 16px;
+  }
+}

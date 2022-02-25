@@ -1,0 +1,20 @@
+.dogs__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  color: var(--light-color);
+  max-width: 560px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+@media screen and (max-width: 666px) {
+  .dogs__title {
+    font-size: 32px;
+    line-height: 109%;
+    max-width: 288px;
+    margin-bottom: 16px;
+  }
+}

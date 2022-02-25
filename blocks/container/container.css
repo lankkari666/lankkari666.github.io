@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+  padding: 0 var(--container-offset);
+  max-width: var(--container-width);
+  min-width: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 calc(var(--container-offset) / 2);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 0 calc(var(--container-offset) / 3);
+  }
+}

@@ -1,0 +1,16 @@
+.hero__pic {
+  max-width: 100%;
+  margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero__pic {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero__pic {
+    margin-top: 40px;
+  }
+}

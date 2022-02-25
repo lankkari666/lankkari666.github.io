@@ -1,0 +1,30 @@
+.dogs__cover {
+  background-color: rgba(42, 44, 47, 0.3);
+  max-width: 1184px;
+  height: 740px;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dogs__cover:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+  transition: 0.1s ease-in;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .dogs__cover {
+		height: 640px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .dogs__cover {
+		height: 480px;
+  }
+}

@@ -1,0 +1,9 @@
+.offer {
+  margin-top: 93px;
+}
+
+@media (max-width: 320px) {
+  .offer {
+    margin-top: 64px;
+  }
+}

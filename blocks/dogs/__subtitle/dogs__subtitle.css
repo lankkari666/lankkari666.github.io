@@ -1,0 +1,17 @@
+.dogs__subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 122%;
+  color: var(--light-color);
+  max-width: 360px;
+  text-align: center;
+}
+
+@media screen and (max-width: 666px) {
+  .dogs__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+  }
+}
