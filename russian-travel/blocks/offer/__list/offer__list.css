@@ -1,10 +1,14 @@
 .offer__list {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   font-weight: bold;
   font-size: 12px;
   line-height: 150%;
   color: var(--light-color);
-  margin-top: 33px; 
+  margin: 33px 0 0;
+}
+@media (max-width: 320px) {
+  .offer__list {
+    margin-top: 44px;
+  }
 }

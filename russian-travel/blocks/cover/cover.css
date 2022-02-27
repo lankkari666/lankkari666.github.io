@@ -1,16 +1,16 @@
-.dogs {
+.cover {
   margin: 92px auto 0;
   max-width: 1184px;
 }
 
 @media screen and (max-width: 768px) {
-  .dogs {
-    margin-top: 0;
+  .cover {
+    margin-top: 90px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .dogs {
+  .cover {
     margin-top: 68px;
   }
 }

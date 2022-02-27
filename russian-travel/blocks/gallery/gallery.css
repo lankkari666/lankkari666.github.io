@@ -1,9 +1,29 @@
 .gallery {
-  margin-top: 92px;
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  padding: 0 48px 0 48px;
+}
+
+@media (max-width: 1024px) {
+  .gallery {
+    gap: 14px;
+  }
 }
 
 @media (max-width: 768px) {
-	.gallery {
-		margin-top: 88px;
-	}
+  .gallery {
+    gap: 16px;
+    margin-top: 88px;
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .gallery {
+    gap: 12px;
+    margin-top: 64px;
+    padding: 0 16px 0 16px;
+  }
 }

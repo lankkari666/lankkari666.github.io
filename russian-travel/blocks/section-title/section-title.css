@@ -1,12 +1,11 @@
 .section-title {
-  margin: 0;
   padding: 0;
   font-weight: 900;
   font-size: 96px;
   line-height: 104%;
   text-align: center;
   color: var(--light-color);
-  margin-top: 56px;
+  margin: 56px 0 0;
 }
 
 @media (max-width: 769px) {

@@ -4,7 +4,13 @@
   text-decoration: none;
   color: var(--light-color);
 }
-
 .footer__link:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+  .footer__link {
+    flex-direction: column;
+    margin-bottom: 34px;
+    font-size: 24px;
+  }
 }

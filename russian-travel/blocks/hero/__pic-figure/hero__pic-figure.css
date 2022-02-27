@@ -4,3 +4,17 @@
   margin-inline-start: 0;
   margin-inline-end: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .hero__pic-figure {
+    max-width: 928px;
+    margin: auto;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  .hero__pic-figure {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 768px;
+  }
+} */

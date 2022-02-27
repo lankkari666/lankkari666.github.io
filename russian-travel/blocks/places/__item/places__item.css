@@ -1,28 +1,30 @@
 .places__item {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, 1fr));
-  grid-template-rows: auto auto;
+  grid-template-columns: 460px 1fr;
   gap: 48px 40px;
 }
 
 .places__item:not(:first-child) {
-  margin-top: 80px;
+  margin-top: 78px;
 }
 
 @media (max-width: 1024px) {
+  .places__item:not(:first-child) {
+    margin-top: 80px;
+  }
   .places__item {
-    gap: 48px 32px;
-    padding: 0px 16px;
+    gap: 50px 36px;
+    padding: 0;
+    grid-template-columns: 440px 1fr;
   }
 }
-
 @media (max-width: 768px) {
   .places__item:not(:first-child) {
     margin-top: 73px;
   }
   .places__item {
     gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
   }
 }
 @media (max-width: 666px) {
@@ -30,8 +32,19 @@
     margin-top: 50px;
   }
   .places__item {
-    gap: 32px 0px;
-    grid-template-columns: repeat(1, minmax(min-content, 1fr));
+    gap: 32px 0;
+    grid-template-columns: repeat(1, 1fr);
     padding: 0;
+  }
+}
+@media (max-width: 320px) {
+  .places__item:not(:first-child) {
+    margin-top: 80px;
+  }
+  .places__item:nth-child(3) {
+    margin-top: 48px;
+  }
+  .places__item:nth-child(4) {
+    margin-top: 48px;
   }
 }

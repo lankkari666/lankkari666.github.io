@@ -3,12 +3,19 @@
   padding: 0;
   display: flex;
   list-style-type: none;
-  column-gap: 18px;
+  column-gap: 19px;
 }
 @media screen and (max-width: 768px) {
   .footer__links {
-    flex-direction: column;
+    flex-direction: row;
     row-gap: 32px;
-    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    margin-bottom: 34px;
+    row-gap: 35px;
   }
 }

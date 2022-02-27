@@ -1,4 +1,6 @@
 .header__lang-switch {
   display: flex;
   column-gap: 18px;
+  align-self: end;
+  margin-bottom: 4px;
 }

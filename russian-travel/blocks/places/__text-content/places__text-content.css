@@ -2,22 +2,23 @@
   margin: 0;
   padding: 0;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29px;
   color: var(--light-color);
 }
-
 .places__text-content:first-child {
   margin-bottom: 26px;
 }
-
+.places__text-content:last-child {
+  margin-bottom: 0;
+}
 @media (max-width: 768px) {
   .places__text-content {
     font-size: 16px;
-    line-height: 163%;
+    line-height: 26px;
   }
 }
 @media (max-width: 666px) {
   .places__text-content {
-    padding: 0px 16px;
+    padding: 0 16px;
   }
 }

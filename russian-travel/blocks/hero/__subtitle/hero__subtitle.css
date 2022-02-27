@@ -1,0 +1,31 @@
+.hero__subtitle {
+  margin: 32px 0 64px;
+  max-width: 640px;
+  padding: 0;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--light-color);
+}
+@media screen and (max-width: 1024px) {
+  .hero__subtitle {
+    margin: 32px 0 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__subtitle {
+    font-size: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .hero__subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .hero__subtitle {
+    font-size: 16px;
+    margin: 16px 0 40px;
+  }
+}
