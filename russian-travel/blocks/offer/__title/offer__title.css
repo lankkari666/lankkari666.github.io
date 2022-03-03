@@ -7,7 +7,7 @@
   color: var(--light-color);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .offer__title {
     font-size: 32px;
     line-height: 109%;

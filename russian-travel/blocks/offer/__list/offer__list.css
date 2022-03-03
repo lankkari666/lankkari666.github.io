@@ -5,7 +5,7 @@
   font-size: 12px;
   line-height: 150%;
   color: var(--light-color);
-  margin: 33px 0 0;
+  margin: 35px 0 0;
 }
 @media (max-width: 320px) {
   .offer__list {

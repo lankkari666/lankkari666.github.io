@@ -1,7 +1,7 @@
 .hero__caption {
   color: var(--light-color);
   font-size: 10px;
-  line-height: 140%;
+  line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-top: 4px;

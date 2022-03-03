@@ -9,10 +9,6 @@
   max-width: 720px;
 }
 
-@media screen and (max-width: 1024px) {
-  .hero__title {
-  }
-}
 @media screen and (max-width: 768px) {
   .hero__title {
     line-height: 100px;
@@ -29,7 +25,6 @@
 @media screen and (max-width: 550px) {
   .hero__title {
     font-size: 50px;
-    line-height: 1.2;
   }
 }
 
