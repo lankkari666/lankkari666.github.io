@@ -12,12 +12,6 @@
     margin: 32px 0 56px;
   }
 }
-
-@media (max-width: 768px) {
-  .hero__subtitle {
-    font-size: 30px;
-  }
-}
 @media (max-width: 425px) {
   .hero__subtitle {
     font-size: 20px;

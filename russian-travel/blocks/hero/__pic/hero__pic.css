@@ -4,9 +4,3 @@
   overflow: hidden;
   object-fit: cover;
 }
-
-@media screen and (max-width: 1024px) {
-  .hero__pic {
-    width: 100%;
-  }
-}

@@ -39,17 +39,10 @@
   .places__item {
     gap: 32px 0;
     grid-template-columns: repeat(1, 1fr);
-    padding: 0;
   }
 }
 @media (max-width: 320px) {
   .places__item:not(:first-child) {
-    margin-top: 80px;
-  }
-  .places__item:nth-child(3) {
-    margin-top: 48px;
-  }
-  .places__item:nth-child(4) {
-    margin-top: 53px;
+    margin-top: 65px;
   }
 }
