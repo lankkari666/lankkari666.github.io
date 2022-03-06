@@ -1,0 +1,7 @@
+.profile__info {
+  color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+}

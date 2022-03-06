@@ -1,0 +1,7 @@
+.edit-btn {
+  background: url(/images/edit-button.svg);
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  flex-shrink: 0;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Место</title>
+  </head>
+  <body class="page">
+    <div class="popup">
+      <div class="popup__container">
+        <button type="button" class="popup__close"></button>
+        <h2 class="popup__heading">Редактировать профиль</h2>
+        <form action="post" method="post" class="form">
+          <input
+            class="form__input form__input_name"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Имя"
+          />
+          <input
+            class="form__input form__input_role"
+            type="text"
+            name="role"
+            id="role"
+            placeholder="О себе"
+          />
+          <button type="submit" class="btn submit-btn">Сохранить</button>
+        </form>
+      </div>
+    </div>
+    <header class="header">
+      <img src="/images/logo.svg" alt="Логотип Место" class="logo" />
+    </header>
+    <main class="main">
+      <section class="profile">
+        <div class="profile__cover">
+          <img
+            src="/images/avatar.webp"
+            alt="Автар профиля"
+            class="profile__avatar"
+          />
+          <div class="profile__info">
+            <div class="profile__title">
+              <h1 class="profile__headeing">Жак-Ив Кусто</h1>
+              <button class="edit-btn btn"></button>
+            </div>
+            <p class="profile__subtitle">Исследователь океана</p>
+          </div>
+        </div>
+        <button class="add-btn btn"></button>
+      </section>
+      <section class="hero">
+        <div class="hero__item">
+          <img
+            src="/images/karachaevsk.webp"
+            alt="Карачаевск"
+            class="hero__pic"
+          />
+          <div class="hero__title">
+            <h2 class="hero__heading">Домбай</h2>
+            <button class="btn like-btn"></button>
+          </div>
+        </div>
+        <div class="hero__item">
+          <img src="/images/elbrus.webp" alt="Гора Эльбрус" class="hero__pic" />
+          <div class="hero__title">
+            <h2 class="hero__heading">Гора Эльбрус</h2>
+            <button class="btn like-btn"></button>
+          </div>
+        </div>
+        <div class="hero__item">
+          <img src="/images/dombay.webp" alt="Карачаевск" class="hero__pic" />
+          <div class="hero__title">
+            <h2 class="hero__heading">Домбай</h2>
+            <button class="btn like-btn"></button>
+          </div>
+        </div>
+        <div class="hero__item">
+          <img
+            src="/images/karachaevsk.webp"
+            alt="Карачаевск"
+            class="hero__pic"
+          />
+          <div class="hero__title">
+            <h2 class="hero__heading">Домбай</h2>
+            <button class="btn like-btn"></button>
+          </div>
+        </div>
+        <div class="hero__item">
+          <img src="/images/elbrus.webp" alt="Гора Эльбрус" class="hero__pic" />
+          <div class="hero__title">
+            <h2 class="hero__heading">Гора Эльбрус</h2>
+            <button class="btn like-btn"></button>
+          </div>
+        </div>
+        <div class="hero__item">
+          <img src="/images/dombay.webp" alt="Карачаевск" class="hero__pic" />
+          <div class="hero__title">
+            <h2 class="hero__heading">Домбай</h2>
+            <button class="btn like-btn"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copy">© 2020 Mesto Russia</p>
+    </footer>
+  </body>
+</html>
