@@ -4,7 +4,7 @@
 
 # Проект №3: Путешествие по России
 
-[Сслыка на проект](https://lankkari666.github.io/russian-travel/index.html)
+[Сслыка на проект](https://lankkari666.github.io/mesto-project/index.html)
 
 ## Макет предоставлен Яндекс.Практикум
 [Sprint 3](https://www.figma.com/file/l2TUqLj7rK8R3lcRV5aM4v/JavaScript.-Sprint-4-Copy)
