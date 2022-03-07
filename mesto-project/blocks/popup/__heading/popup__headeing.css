@@ -11,3 +11,9 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .popup__heading {
+    padding-bottom: 20px;
+  }
+}

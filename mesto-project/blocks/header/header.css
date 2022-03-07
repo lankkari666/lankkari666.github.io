@@ -2,10 +2,23 @@
   padding-top: 45px;
   padding-bottom: 37px;
   border-bottom: 1px solid var(--grey-color);
+  opacity: 0.7;
 }
 @media screen and (max-width: 320px) {
   .header {
+    padding-bottom: 28px;
     padding-top: 28px;
     padding-left: 10px;
+    border-bottom: 0;
+  }
+  .header::after {
+    border-bottom: 1px solid var(--grey-color);
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 83px;
+    opacity: 0.7;
   }
 }

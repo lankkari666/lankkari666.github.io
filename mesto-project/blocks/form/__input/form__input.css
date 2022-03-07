@@ -9,16 +9,12 @@
   color: #000;
   font-size: 14px;
   font-weight: 400;
-  height: 26px;
   line-height: 17px;
   padding: 0 0 11px;
   transition: 0.3s;
   width: 100%;
 }
 
-@media screen and (max-width: 610px) {
-  .form__input {
-    font-size: 14px;
-    line-height: 17px;
-  }
+.form__input:nth-child(2) {
+  margin-top: 30px;
 }

@@ -1,13 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font.css);
+@import url(../variables/variables.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/btn/btn.css);
-@import url(../blocks/submit-btn/submit-btn.css);
-@import url(../blocks/add-btn/add-btn.css);
-@import url(../blocks/like-btn/like-btn.css);
-@import url(../blocks/edit-btn/edit-btn.css);
+@import url(../blocks/btn/_submit/btn_submit.css);
+@import url(../blocks/btn/_add/btn_add.css);
+@import url(../blocks/btn/_like/btn_like.css);
+@import url(../blocks/btn/_edit/btn_edit.css);
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__cover/profile__cover.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
@@ -29,4 +30,3 @@
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__input/form__input.css);
-@import url(../blocks/form/__input/_role/form__input_role.css);
