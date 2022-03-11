@@ -1,0 +1,20 @@
+.btn_btn_edit {
+  background: url(../../../images/edit-button.svg);
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  flex-shrink: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid var(--light-color);
+}
+@media screen and (max-width: 320px) {
+  .btn_edit {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.btn_btn_edit:hover {
+  opacity: 0.6;
+}

@@ -5,10 +5,10 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/btn/btn.css);
-@import url(../blocks/btn/_submit/btn_submit.css);
-@import url(../blocks/btn/_add/btn_add.css);
-@import url(../blocks/btn/_like/btn_like.css);
-@import url(../blocks/btn/_edit/btn_edit.css);
+@import url(../blocks/btn/_btn/btn_btn_submit.css);
+@import url(../blocks/btn/_btn/btn_btn_add.css);
+@import url(../blocks/btn/_btn/btn_btn_like.css);
+@import url(../blocks/btn/_btn/btn_btn_edit.css);
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__cover/profile__cover.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
