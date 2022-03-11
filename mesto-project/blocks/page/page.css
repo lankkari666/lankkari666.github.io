@@ -4,7 +4,6 @@
   margin: 0 auto;
   max-width: var(--container-width);
   min-width: 320px;
-  padding: 0 var(--container-offset);
   background-color: var(--bg-color);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

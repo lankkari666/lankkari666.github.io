@@ -9,7 +9,7 @@
   border: 1px solid var(--light-color);
 }
 @media screen and (max-width: 320px) {
-  .btn_edit {
+  .btn_btn_edit {
     width: 18px;
     height: 18px;
   }

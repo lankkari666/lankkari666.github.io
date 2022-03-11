@@ -13,12 +13,12 @@
 }
 
 @media screen and (max-width: 610px) {
-  .btn_submit {
+  .btn_btn_submit {
     font-size: 14px;
     line-height: 17px;
   }
 }
 
 .btn_btn_submit:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
