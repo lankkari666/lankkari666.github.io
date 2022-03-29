@@ -23,6 +23,7 @@
 @import url(../blocks/hero/__pic/hero__pic.css);
 @import url(../blocks/hero/__heading/hero__heading.css);
 @import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__del/hero__del.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copy/footer__copy.css);
 @import url(../blocks/popup/popup.css);

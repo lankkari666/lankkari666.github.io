@@ -30,74 +30,7 @@
           </div>
           <button class="btn_btn_add btn" type="button"></button>
         </section>
-        <section class="hero">
-          <div class="hero__item">
-            <img
-              src="./images/karachaevsk.webp"
-              alt="Карачаевск"
-              class="hero__pic"
-            />
-            <div class="hero__title">
-              <h2 class="hero__heading">Домбай</h2>
-              <button class="btn btn_btn_like" type="button"></button>
-            </div>
-          </div>
-          <div class="hero__item">
-            <img
-              src="./images/elbrus.webp"
-              alt="Гора Эльбрус"
-              class="hero__pic"
-            />
-            <div class="hero__title">
-              <h2 class="hero__heading">Гора Эльбрус</h2>
-              <button class="btn btn_btn_like" type="button"></button>
-            </div>
-          </div>
-          <div class="hero__item">
-            <img
-              src="./images/dombay.webp"
-              alt="Карачаевск"
-              class="hero__pic"
-            />
-            <div class="hero__title">
-              <h2 class="hero__heading">Домбай</h2>
-              <button class="btn btn_btn_like" type="button"></button>
-            </div>
-          </div>
-          <div class="hero__item">
-            <img
-              src="./images/karachaevsk.webp"
-              alt="Карачаевск"
-              class="hero__pic"
-            />
-            <div class="hero__title">
-              <h2 class="hero__heading">Домбай</h2>
-              <button class="btn btn_btn_like" type="button"></button>
-            </div>
-          </div>
-          <div class="hero__item">
-            <img
-              src="./images/elbrus.webp"
-              alt="Гора Эльбрус"
-              class="hero__pic"
-            />
-            <div class="hero__title">
-              <h2 class="hero__heading">Гора Эльбрус</h2>
-              <button class="btn btn_btn_like" type="button"></button>
-            </div>
-          </div>
-          <div class="hero__item">
-            <img
-              src="./images/dombay.webp"
-              alt="Карачаевск"
-              class="hero__pic"
-            />
-            <div class="hero__title">
-              <h2 class="hero__heading">Домбай</h2>
-              <button class="btn btn_btn_like" type="button"></button>
-            </div>
-          </div>
-        </section>
+        <section class="hero"><</section>
       </main>
       <footer class="footer">
         <p class="footer__copy">© 2020 Mesto Russia</p>
@@ -107,7 +40,12 @@
       <div class="popup__container">
         <button type="button" class="btn popup__close"></button>
         <h2 class="popup__heading">Редактировать профиль</h2>
-        <form name="form-edit" action="post" method="post" class="form">
+        <form
+          name="form-edit"
+          action="post"
+          method="post"
+          class="form form-edit"
+        >
           <input
             class="form__input form__input_name"
             type="text"
@@ -132,7 +70,7 @@
       <div class="popup__container">
         <button type="button" class="btn popup__close"></button>
         <h2 class="popup__heading">Новое место</h2>
-        <form name="form-add" action="post" method="post" class="form">
+        <form name="form-add" action="post" method="post" class="form form-add">
           <input
             class="form__input form__input_title"
             type="text"
@@ -153,6 +91,16 @@
         </form>
       </div>
     </div>
-    <script src="./js/main.js"></script>
+    <template id="card">
+      <div class="hero__item">
+        <img src="" alt="" class="hero__pic" />
+        <div class="hero__title">
+          <h2 class="hero__heading"></h2>
+          <button type="button" class="btn btn_btn_like"></button>
+        </div>
+        <img src="./images/trash.svg" alt="Удалить" class="hero__del" />
+      </div>
+    </template>
+    <script src="./js/main.js" defer></script>
   </body>
 </html>
