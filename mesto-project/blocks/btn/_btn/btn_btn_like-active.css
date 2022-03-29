@@ -1,3 +1,11 @@
 .btn_btn_like-active {
-  background: url(/images/like-btn_active.svg);
+  background: url(../../../images/like-btn_active.svg);
+  width: 22px;
+  height: 19px;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.btn_btn_like-active:hover {
+  opacity: 0.5;
 }
