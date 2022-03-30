@@ -1,6 +1,8 @@
 // Edit
 const editBtn = document.querySelector(".btn_btn_edit");
-const closeBtn = document.querySelector(".popup__close");
+const editCloseBtn = document.querySelector(".popup__close");
+const addCloseBtn = document.querySelector(".popup__close");
+const photoCloseBtn = document.querySelector(".popup__close");
 const popupEdit = document.querySelector(".popup_edit");
 const formEdit = document.querySelector(".form-edit");
 const nameInput = document.querySelector(".form__input_name");
@@ -63,21 +65,21 @@ addBtn.addEventListener("click", () => {
     openPopup(popupAdd);
 });
 
-closeBtn.addEventListener("click", () => {
+editCloseBtn.addEventListener("click", () => {
     closePopup(popupEdit);
 });
 
-closeBtn.addEventListener("click", () => {
+addCloseBtn.addEventListener("click", () => {
     closePopup(popupAdd);
 });
 
-closeBtn.addEventListener("click", () => {
+photoCloseBtn.addEventListener("click", () => {
     closePopup(popupPhoto);
 });
 
 // editBtn
 
-function formSubmitHandler(evt) {
+function handleProfileFormSubmit(evt) {
     evt.preventDefault();
     profileHeading.textContent = nameInput.value;
     profileSubTitle.textContent = roleInput.value;
@@ -87,7 +89,7 @@ function formSubmitHandler(evt) {
 // Likes && Utils
 
 popups.forEach((popup) => {
-    popup.addEventListener("click", (evt) => {
+    popup.addEventListener("mousedown", (evt) => {
         if (evt.target.classList.contains("popup__close")) {
             closePopup(popup);
         }
@@ -126,7 +128,7 @@ function createCard(name, link) {
         const cardItem = cardDel.closest(".hero__item");
         cardItem.remove();
     });
-    cardPhoto.addEventListener("click", (evt) => {
+    cardPhoto.addEventListener("click", () => {
         openPopup(popupPhoto);
         linkPhoto.src = link;
         linkPhoto.alt = name;
@@ -142,5 +144,5 @@ function formSubmitHandlerAdd(evt) {
     formAdd.reset();
 }
 
-formEdit.addEventListener("submit", formSubmitHandler);
+formEdit.addEventListener("submit", handleProfileFormSubmit);
 formAdd.addEventListener("submit", formSubmitHandlerAdd);
