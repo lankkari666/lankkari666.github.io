@@ -1,106 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pages/index.css" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="pages/index.css"/>
     <title>Место</title>
-  </head>
-  <body class="page">
-    <header class="header">
-      <img src="./images/logo.svg" alt="Логотип Место" class="logo" />
-    </header>
-    <div class="container">
-      <main class="main">
+</head>
+<body class="page">
+<header class="header">
+    <img src="./images/logo.svg" alt="Логотип Место" class="logo"/>
+</header>
+<div class="container">
+    <main class="main">
         <section class="profile">
-          <div class="profile__cover">
-            <img
-              src="./images/avatar.webp"
-              alt="Автар профиля"
-              class="profile__avatar"
-            />
-            <div class="profile__info">
-              <div class="profile__title">
-                <h1 class="profile__heading">Жак-Ив Кусто</h1>
-                <button class="btn_btn_edit btn" type="button"></button>
-              </div>
-              <p class="profile__subtitle">Исследователь океана</p>
+            <div class="profile__cover">
+                <img
+                        src="./images/avatar.webp"
+                        alt="Автар профиля"
+                        class="profile__avatar"
+                />
+                <div class="profile__info">
+                    <div class="profile__title">
+                        <h1 class="profile__heading">Жак-Ив Кусто</h1>
+                        <button class="btn_btn_edit btn" type="button"></button>
+                    </div>
+                    <p class="profile__subtitle">Исследователь океана</p>
+                </div>
             </div>
-          </div>
-          <button class="btn_btn_add btn" type="button"></button>
+            <button class="btn_btn_add btn" type="button"></button>
         </section>
         <section class="hero"><</section>
-      </main>
-      <footer class="footer">
+    </main>
+    <footer class="footer">
         <p class="footer__copy">© 2020 Mesto Russia</p>
-      </footer>
-    </div>
-    <div class="popup popup_edit">
-      <div class="popup__container">
+    </footer>
+</div>
+<div class="popup popup_edit">
+    <div class="popup__container">
         <button type="button" class="btn popup__close"></button>
         <h2 class="popup__heading">Редактировать профиль</h2>
         <form
-          name="form-edit"
-          action="post"
-          method="post"
-          class="form form-edit"
+                name="form-edit"
+                action="post"
+                method="post"
+                class="form form-edit"
         >
-          <input
-            class="form__input form__input_name"
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Имя"
-            required
-          />
-          <input
-            class="form__input form__input_role"
-            type="text"
-            name="role"
-            id="role"
-            placeholder="О себе"
-            required
-          />
-          <button type="submit" class="btn btn_btn_save">Сохранить</button>
+            <input
+                    class="form__input form__input_name"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Имя"
+                    required
+            />
+            <input
+                    class="form__input form__input_role"
+                    type="text"
+                    name="role"
+                    id="role"
+                    placeholder="О себе"
+                    required
+            />
+            <button type="submit" class="btn btn_btn_save">Сохранить</button>
         </form>
-      </div>
     </div>
-    <div class="popup popup_add">
-      <div class="popup__container">
+</div>
+<div class="popup popup_add">
+    <div class="popup__container">
         <button type="button" class="btn popup__close"></button>
         <h2 class="popup__heading">Новое место</h2>
         <form name="form-add" action="post" method="post" class="form form-add">
-          <input
-            class="form__input form__input_title"
-            type="text"
-            name="name"
-            id="title"
-            placeholder="Название"
-            required
-          />
-          <input
-            class="form__input form__input_link"
-            type="text"
-            name="role"
-            id="link"
-            placeholder="Ссылка на картинку"
-            required
-          />
-          <button type="submit" class="btn btn_btn_save">Создать</button>
+            <input
+                    class="form__input form__input_title"
+                    type="text"
+                    name="name"
+                    id="title"
+                    placeholder="Название"
+                    required
+            />
+            <input
+                    class="form__input form__input_link"
+                    type="text"
+                    name="role"
+                    id="link"
+                    placeholder="Ссылка на картинку"
+                    required
+            />
+            <button type="submit" class="btn btn_btn_save">Создать</button>
         </form>
-      </div>
     </div>
-    <template id="card">
-      <div class="hero__item">
-        <img src="" alt="" class="hero__pic" />
+</div>
+<div class="popup popup_photo">
+    <div class="popup__container-photo">
+        <button type="button" class="btn popup__close"></button>
+        <img src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg" alt="Камчатка"
+             class="popup__photo">
+        <h2 class="popup__title-photo">Камчатка</h2>
+    </div>
+</div>
+<template id="card">
+    <div class="hero__item">
+        <img src="" alt="" class="hero__pic"/>
         <div class="hero__title">
-          <h2 class="hero__heading"></h2>
-          <button type="button" class="btn btn_btn_like"></button>
+            <h2 class="hero__heading"></h2>
+            <button type="button" class="btn btn_btn_like"></button>
         </div>
-        <img src="./images/trash.svg" alt="Удалить" class="hero__del" />
-      </div>
-    </template>
-    <script src="./js/main.js" defer></script>
-  </body>
+        <img src="./images/trash.svg" alt="Удалить" class="hero__del"/>
+    </div>
+</template>
+<script src="./js/main.js" defer></script>
+</body>
 </html>

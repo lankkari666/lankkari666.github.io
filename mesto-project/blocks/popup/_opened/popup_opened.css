@@ -1,16 +1,6 @@
-@keyframes popup {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
 .popup_opened {
   display: flex;
-  animation-name: popup;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity .5s;
 }
